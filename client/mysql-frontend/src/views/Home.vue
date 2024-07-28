@@ -24,7 +24,7 @@
             <h3 class="text-sm text-slate-900 ml-2 mr-10">{{ product.description }}</h3>
             <ul class="flex justify-between">
               <li class="mx-2 mt-2 mb-2">
-                <p class="item-price">{{ product.price }}</p>
+                <p class="item-price font-bold ">{{ product.price }}€</p>
               </li>
               <li class="mx-2 mb-2">
                 <button @click="addToCart(product)" class="item-button addToCart mx-2 rounded-lg bg-neutral-800 text-white px-2 pt-1 pb-1 hover:bg-lime-200">🛒</button>

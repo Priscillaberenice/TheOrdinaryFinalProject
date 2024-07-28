@@ -2,29 +2,30 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from './views/Home.vue';
 import AboutUs from './views/AboutUs.vue';
 import Contact from './views/Contact.vue';
-// import Perfume from './views/Perfume.vue';
-// import Moisturizer from './views/Moisturizer.vue';
-// import Shampoo from './views/Shampoo.vue';
-// import GiftCards from './views/GiftCards.vue';
-// import Toner from './views/Toner.vue';
-// import FaceOils from './views/FaceOils.vue';
-// import Foundation from './views/Foundation.vue';
-// import Suncare from './views/Suncare.vue';
-// import Tools from './views/Tools.vue';
+// import New from './views/New.vue';
+// import Bestsellers from './views/Bestsellers.vue';
+// import SummerTop from './views/SummerTop.vue';
+// import SpecialPrices from './views/SpecialPrices.vue';
+// import Skincare from './views/Skincare.vue';
+// import Haircare from './views/Haircare.vue';
+// import Bodycare from './views/Bodycare.vue';
+// import Gifts from './views/Gifts.vue';
+// import Packs from './views/Packs.vue';
+
 
 const routes = [
   { path: '/', name: 'Home',component: Home },
   { path: '/AboutUs', component: AboutUs },
   { path: '/contact', component: Contact }
-//   { path: '/perfume', component: Perfume },
-//   { path: '/moisturizer', component: Moisturizer },
-//   { path: '/shampoo', component: Shampoo },
-//   { path: '/gift-cards', component: GiftCards },
-//   { path: '/toner', component: Toner },
-//   { path: '/face-oils', component: FaceOils },
-//   { path: '/foundation', component: Foundation },
-//   { path: '/suncare', component: Suncare },
-//   { path: '/tools', component: Tools }
+//   { path: '/new', component: New },
+//   { path: '/bestsellers', component: Bestsellers },
+//   { path: '/summerTop', component: SummerTop },
+//   { path: '/specialprices', component: SpecialPrices },
+//   { path: '/skincare', component: Skincare },
+//   { path: '/haircare', component: Haircare },
+//   { path: '/bodycare', component: Bodycare },
+//   { path: '/gifts', component: Gifts },
+//   { path: '/packs', component: Packs }
 ];
 
 const router = createRouter({
